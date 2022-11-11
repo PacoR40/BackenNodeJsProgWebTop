@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://paco40:2KPKacP767Pnuxbx@cluster0.zbtwo.mongodb.net/services');
+mongoose.connect('mongodb.url');
 const objConn = mongoose.connection
 
 objConn.on('connected', ()=> {
